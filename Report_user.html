@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Report_user.css">
+    <title>Report User</title>
+</head>
+<body>
+
+    <h1> Report User</h1><hr>
+    <p>If a user has posted something that you feel is offensive, please let us know by filling in the below form.</p>
+    <p>Please enter the username of the user you would like to report.</p>
+    <p>This information can be found next to the post on the  explore page.</p><hr>
+
+    <nav class='Sidebar'>
+        <img id='SidebarLogo' src="./Images/LL_logo_vertical.png" alt='logo for website'></img>
+        <h3>Laugh Lounge</h3>
+
+        <a href="HomePage.php">
+            <button class='Button'>
+            <span>Home</span>
+            </button>
+        </a>
+
+        <a href="ExplorePage.html">
+            <button class='Button'>
+                <span>Explore</span>
+            </button>
+        </a>
+
+        <a href="view_meme.html">
+            <button class='Button'>
+            <span>Meme Center</span>
+            </button>
+            </a>
+
+        <a href="joke_page.html">
+            <button class='Button'>
+            <span>Joke Center</span>
+            </button>
+        </a>
+
+        <a href="Upload_img.php">
+            <button class='Button'>
+            <span>Upload Image</span>
+            </button>
+        </a>
+        
+        <a href="Report_user.html">
+            <button class='Button'>
+            <span>Report User</span>
+            </button>
+        </a>
+
+        <a href="AuthenticationPage.html">
+            <button class='Button'>
+            <span>Logout</span>
+            </button>
+        </a>
+
+    </nav>
+
+    <div class="FormQuestions">
+        <form name= "RegistrationForm" action="process_complaint.php" method="post">
+            <h4>User's Information</h4>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="complaint">A brief description of the complaint.</label>
+            <textarea id="complaint" name="complaint" rows="4" cols="50"></textarea><br>
+
+            <button>Submit</button>	
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial';
+	font-size: 20px;
+	color: rgb(233, 111, 23);
+    text-align:center;
+}
+
+h1{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial';
+	font-size: 40px;
+	color: rgb(233, 111, 23);
+    text-align:center;
+}
+
+h3{
+    font-family:cursive ;
+    font-size: 18px;
+    text-align: center;
+    color: chocolate;
+    padding: 5px;
+}
+
+.main{
+    font-family: "Roboto", "sans-serif";
+    text-align: center;
+    color: chocolate;
+
+}
+.main img{
+    height: 500px;
+    object-fit: cover;
+}
+.main .btn{
+    background-color: rgb(73, 73, 73);
+	border-radius: 12px;
+	font-size: 25px;
+	color:chocolate;
+    margin: 10px;
+}
+.main .btn:hover{
+    background-color:chocolate;
+    color: aliceblue;
+
+}
+.main h3{
+    margin: 8px;
+}
+
+.Sidebar{
+    height: 100vh;
+    width: max-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid chocolate;
+    background-color: rgb(146, 144, 143);
+    margin: 0%;
+}
+
+#SidebarLogo{
+    width: 80px;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.Button{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    background: none;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Button:hover{
+    background-color: rgb(211, 159, 62);
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Own Joke</title>
+    <link rel="stylesheet" href="stylesheet_joke_page.css">
+</head>
+<body>
+
+        <h1>😂Welcome to the Joke Center🤣</h1>
+        <p>Here you can post your own jokes that others can on the explore page.<p>
+        <p>All you have to do if fill in the input fields and the click submit. </p>
+        <p>After you fill in the form you will be redirected the Home Page.</p>
+
+        <nav class='Sidebar'>
+            <img id='SidebarLogo' src="./Images/LL_logo_vertical.png" alt='logo for website'></img>
+            <h3>Laugh Lounge</h3>
+    
+            <a href="HomePage.php">
+                <button class='Button'>
+                <span>Home</span>
+                </button>
+            </a>
+    
+            <a href="ExplorePage.html">
+                <button class='Button'>
+                    <span>Explore</span>
+                </button>
+            </a>
+    
+            <a href="view_meme.html">
+                <button class='Button'>
+                <span>Meme Center</span>
+                </button>
+            </a>
+    
+            <a href="joke_page.html">
+                <button class='Button'>
+                <span>Joke Center</span>
+                </button>
+            </a>
+
+            <a href="Upload_img.php">
+                <button class='Button'>
+                <span>Upload Image</span>
+                </button>
+            </a>
+
+            <a href="Report_user.html">
+                <button class='Button'>
+                <span>Report User</span>
+                </button>
+            </a>
+
+            <a href="AuthenticationPage.html">
+                <button class='Button'>
+                <span>Logout</span>
+                </button>
+            </a>
+        
+        </nav>
+
+        <div class="FormQuestions">
+            <form action="joke_processing.php" method="post">
+                <label for="Username">Your Username</label>
+                <input type="text" id="Username" name="Username">
+                
+                <label for="joke">Your Joke</label>
+                <textarea id="joke" name="joke" rows="4" cols="50"></textarea><br>
+                
+                <button>Submit</button>
+            </form>
+        </div>
+
+        <div class="Example">
+            <p>Don't Know what to type. Click the "Get Example" button to get inspired.</p>
+            <button class="btn">Get Example</button>
+            <h2 class="setup">Loading joke setup...⏳</h2>
+            <h2 class="punchline">Loading joke punchline...⏳</h2>
+        </div>
+
+    <script src="joke_api.js"></script>
+</body>
+</html>
+

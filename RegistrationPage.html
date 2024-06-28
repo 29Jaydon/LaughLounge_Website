@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="RegStyleSheet.css" rel="stylesheet" >
+    <title>Laugh Lounge</title>
+</head>
+<body>
+    <header>
+        <img id='SidebarLogo' src="./Images/LL_logo_vertical.png" alt='logo for website'></img>
+        <P>Please Fill in the form below to create an account.<br>
+        Please type your information in full. Do not use abrivations.</P>
+    </header>    
+    
+        <div class="FormQuestions">
+            <form name= "RegistrationForm" action="Registration_process.php" onsubmit="return Validate_RegistrationForm()" method="post">
+                <h2>Personal Information</h2>
+                <label for="Fname">First Name</label>
+                <input type="text" id="Fname" name="Fname">
+                
+                <label for="Lname">Last Name</label>
+                <input type="text" id="Lname" name="Lname">
+
+                <label for="Uname">Username</label>
+                <input type="text" id="Uname" name="Uname">
+                
+                <label for="PhoneNum">Phone Number</label>
+                <input type="text" id="PhoneNum" name="PhoneNum">
+                
+                <label for="Email">Email Address</label>
+                <input type="text" id="Email" name="Email">
+                
+                <label for="Password">Password</label>
+                <input type="text" id="Password" name="Password">
+
+                <button>Submit</button>	
+            </form>
+        </div>
+    <script src="Validation.js"></script>
+</body>
+</html>

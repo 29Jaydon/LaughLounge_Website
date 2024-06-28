@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+header{
+    height: 90px;
+    border-bottom: 1px solid white;
+}
+
+#SidebarLogo{
+    width: 80px;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial';
+	font-size: 20px;
+	color: rgb(233, 111, 23);
+    padding: 5px;
+}
+
+h1{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial';
+	font-size: 30px;
+	color: rgb(233, 111, 23);;
+}
+
+h2{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial';
+	font-size: 30px;
+	color: rgb(233, 111, 23);	
+	text-align:center;
+}
+.FormQuestions{
+	text-align:center;
+}
+.FormQuestions label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Arial';
+	font-size: 20px;
+	color: rgb(233, 111, 23);
+	text-align:center;
+	display:block;
+    margin-top: 10px;
+}
+
+.FormQuestions input{
+	display:block;
+	width: 25%;
+	margin-left:500px;
+    margin-bottom: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(240, 248, 255);
+}
+
+button{
+	background-color: rgb(73, 73, 73);
+	border-radius: 12px;
+	font-size: 25px;
+	color:chocolate;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: rgb(211, 159, 62);
+    color: black;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+}
